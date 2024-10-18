@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 ma vaff
-=======
-ma vaff
->>>>>>> kepler
