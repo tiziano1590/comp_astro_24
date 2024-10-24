@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 Date: Mon Oct 7 14:40:16 2024 +0000
 
 Hashcode: 01bc48c0df09c856e1cb129c56bbc10cf628b0a0
+=======
+commit 265950714d52a50107f658eca83e6e41f8a1d03d (ca24_remote/main)
+Author: Tiziano Zingales <tiziano.zingales@gmail.com>
+Date:   Wed Oct 16 23:12:09 2024 +0200
+>>>>>>> 9dbbff692bd83003ae27ecfadd23d797f18e6617
