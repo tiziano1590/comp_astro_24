@@ -1,0 +1,8 @@
+Jeremy Sam John
+
+For reference - 
+commit a24bc21208b0ee9142e5b66e2da278b8665d463c (HEAD -> assignment_1_taskC)
+Author: JeremySJohn <jeremyjohn231@gmail.com>
+Date:   Tue Oct 29 17:15:12 2024 +0000
+
+    Added new .txt file named taskC_JeremySJohn.txt for task C
