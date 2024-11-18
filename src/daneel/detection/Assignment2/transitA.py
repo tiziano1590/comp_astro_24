@@ -20,12 +20,10 @@ params.u = [mean_c1,mean_c2]      #limb darkening coefficients [u1, u2, u3, u4]
 t = np.linspace(-0.3, 0.3, 1000)  #times at which to calculate light curve
 m = batman.TransitModel(params, t)    #initializes model
 
-l = ['Planet', 'Planet (1/2 mass)']
 flux = m.light_curve(params)
 
 plt.plot(t, flux)
 plt.xlabel('Time [days]')
 plt.ylabel('Normalized flux')
-plt.legend(l)
 
 plt.title('Transit (Wasp-62b)')
