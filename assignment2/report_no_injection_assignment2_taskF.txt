@@ -1,14 +1,14 @@
 # Network with 1 hidden layer and 1 neuron per layer
 confusion_matrix_train
-[[5047    3]
+[[5048    2]
  [   0   37]]
 confusion_matrix_dev
-[[560   5]
+[[559   6]
  [  0   5]]
 
 # Network with 1 hidden layers and 16 neurons per layer
 confusion_matrix_train
-[[5048    2]
+[[5047    3]
  [   0   37]]
 confusion_matrix_dev
 [[565   0]
@@ -16,7 +16,7 @@ confusion_matrix_dev
 
 # Network with 1 hidden layers and 32 neurons per layer
 confusion_matrix_train
-[[5048    2]
+[[5047    3]
  [   0   37]]
 confusion_matrix_dev
 [[565   0]
@@ -32,7 +32,7 @@ confusion_matrix_dev
 
 # Network with 2 hidden layers and 16 neurons per layer
 confusion_matrix_train
-[[5048    2]
+[[5046    4]
  [   0   37]]
 confusion_matrix_dev
 [[565   0]
@@ -40,7 +40,7 @@ confusion_matrix_dev
 
 # Network with 2 hidden layers and 32 neurons per layer
 confusion_matrix_train
-[[5045    5]
+[[5046    4]
  [   0   37]]
 confusion_matrix_dev
 [[565   0]
@@ -48,7 +48,7 @@ confusion_matrix_dev
 
 # Network with 2 hidden layers and 64 neurons per layer
 confusion_matrix_train
-[[5047    3]
+[[5049    1]
  [   0   37]]
 confusion_matrix_dev
 [[565   0]
@@ -56,7 +56,7 @@ confusion_matrix_dev
 
 # Network with 3 hidden layers and 16 neurons per layer
 confusion_matrix_train
-[[5045    5]
+[[5046    4]
  [   0   37]]
 confusion_matrix_dev
 [[565   0]
@@ -72,7 +72,7 @@ confusion_matrix_dev
 
 # Network with 3 hidden layers and 64 neurons per layer
 confusion_matrix_train
-[[5047    3]
+[[5046    4]
  [   0   37]]
 confusion_matrix_dev
 [[565   0]
