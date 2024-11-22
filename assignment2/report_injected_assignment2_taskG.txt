@@ -8,72 +8,73 @@ confusion_matrix_dev
 
 # Network with 1 hidden layers and 16 neurons per layer
 confusion_matrix_train
-[[ 898 1328]
- [ 906 1955]]
+[[1474  752]
+ [1658 1203]]
 confusion_matrix_dev
-[[ 83 171]
- [ 97 219]]
+[[172  82]
+ [203 113]]
 
 # Network with 1 hidden layers and 32 neurons per layer
 confusion_matrix_train
-[[1076 1150]
- [1192 1669]]
+[[1890  336]
+ [2250  611]]
 confusion_matrix_dev
-[[ 45 209]
- [ 49 267]]
+[[228  26]
+ [278  38]]
 
 # Network with 1 hidden layers and 64 neurons per layer
 confusion_matrix_train
-[[1217 1009]
- [1345 1516]]
+[[1034 1192]
+ [1121 1740]]
 confusion_matrix_dev
-[[  4 250]
- [ 10 306]]
+[[ 53 201]
+ [ 54 262]]
 
-# Network with 2 hidden layers and 16 neurons per layer
+# Network  with 2 hidden layers and 16 neurons per layer
 confusion_matrix_train
-[[1366  860]
- [1522 1339]]
+[[1939  287]
+ [2281  580]]
 confusion_matrix_dev
-[[124 130]
- [157 159]]
+[[236  18]
+ [294  22]]
 
 # Network with 2 hidden layers and 32 neurons per layer
 confusion_matrix_train
-[[1366  860]
- [1522 1339]]
+[[ 702 1524]
+ [ 627 2234]]
 confusion_matrix_dev
-[[124 130]
- [157 159]]
+[[ 13 241]
+ [ 13 303]]
 
 # Network with 2 hidden layers and 64 neurons per layer
 confusion_matrix_train
-[[ 428 1798]
- [ 303 2558]]
-confusion_matrix_dev
-[[ 15 239]
- [ 14 302]]
-
-# Network with 3 hidden layers and 16 neurons per layer
-confusion_matrix_train
-[[2030  196]
- [2492  369]]
+[[1906  320]
+ [2203  658]]
 confusion_matrix_dev
 [[254   0]
  [316   0]]
 
+# Network with 3 hidden layers and 16 neurons per layer
+
+confusion_matrix_train
+[[2098  128]
+ [2566  295]]
+confusion_matrix_dev
+[[252   2]
+ [308   8]]
+
 # Network with 3 hidden layers and 32 neurons per layer
 confusion_matrix_train
-[[1988  238]
- [2410  451]]
+[[1627  599]
+ [1902  959]]
 confusion_matrix_dev
-[[223  31]
- [277  39]]
+[[216  38]
+ [264  52]]
 
 # Network with 3 hidden layers and 64 neurons per layer
 confusion_matrix_train
-[[1990  236]
- [2478  383]]
+[[1903  323]
+ [2303  558]]
 confusion_matrix_dev
-[[208  46]
- [262  54]]
+[[180  74]
+ [212 104]]
