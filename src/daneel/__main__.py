@@ -1,3 +1,4 @@
+import os
 import datetime
 import argparse
 from daneel.parameters import Parameters
@@ -43,7 +44,43 @@ def main():
     input_pars = Parameters(args.input_file).params
 
     if args.detect:
-        pass
+        """Example usage
+
+        The following commands have been taken from the SVM detector notebook.
+        Everything can be arranged in a separated file within the detection folder
+        as it has been done for the LightFluxProcessor object.
+
+        Take it as example to build your own package
+        """
+
+        train_dataset_path = input_pars["detection"]["dataset"]["train"]
+        dev_dataset_path = input_pars["detection"]["dataset"]["test"]
+
+        print("Loading datasets...")
+        df_train = pd.read_csv(train_dataset_path, encoding="ISO-8859-1")
+        df_dev = pd.read_csv(dev_dataset_path, encoding="ISO-8859-1")
+        print("Loaded datasets!")
+
+        # Generate X and Y dataframe sets
+        df_train_x = df_train.drop("LABEL", axis=1)
+        df_dev_x = df_dev.drop("LABEL", axis=1)
+        df_train_y = df_train.LABEL
+        df_dev_y = df_dev.LABEL
+
+        LFP = LightFluxProcessor(
+            fourier=True, normalize=True, gaussian=True, standardize=True
+        )
+        df_train_x, df_dev_x = LFP.process(df_train_x, df_dev_x)
+
+        # display(df_train_x)
+
+        # Rejoin X and Y
+        df_train_processed = pd.DataFrame(df_train_x).join(pd.DataFrame(df_train_y))
+        df_dev_processed = pd.DataFrame(df_dev_x).join(pd.DataFrame(df_dev_y))
+
+        # Load X and Y numpy arrays
+        X_train, Y_train = np_X_Y_from_df(df_train_processed)
+        X_dev, Y_dev = np_X_Y_from_df(df_dev_processed)
     if args.atmosphere:
         pass
 
