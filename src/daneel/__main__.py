@@ -81,6 +81,9 @@ def main():
         # Load X and Y numpy arrays
         X_train, Y_train = np_X_Y_from_df(df_train_processed)
         X_dev, Y_dev = np_X_Y_from_df(df_dev_processed)
+
+        print("X train shape: ", X_train.shape)
+        print("X test shape: ", X_dev.shape)
     if args.atmosphere:
         pass
 
