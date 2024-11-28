@@ -28,7 +28,7 @@ def main():
     parser.add_argument(
         "-a",
         "--atmosphere",
-        dest="complete",
+        dest="atmosphere",
         required=False,
         help="Atmospheric Characterisazion from input transmission spectrum",
         action="store_true",
