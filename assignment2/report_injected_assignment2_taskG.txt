@@ -1,10 +1,10 @@
 # Network with 1 hidden layer and 1 neuron per layer
 confusion_matrix_train
-[[ 663 1563]
- [ 766 2095]]
+[[1585  641]
+ [1877  984]]
 confusion_matrix_dev
-[[ 63 191]
- [ 72 244]]
+[[149 105]
+ [174 142]]
 
 # Network with 1 hidden layers and 16 neurons per layer
 confusion_matrix_train
