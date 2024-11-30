@@ -1,0 +1,126 @@
+PS C:\Users\Kevin\OneDrive\Documentos\UNIPD\2_year\computational\computationalgit\comp_astro_24> git log ca24_remote/main
+commit a449a0fe374a416631f232c427ff506c29e8436b (HEAD -> main, origin/main, origin/HEAD, ca24_remote/main)
+Author: Tiziano Zingales <tiziano.zingales@gmail.com>
+Date:   Thu Oct 24 15:54:09 2024 +0200
+
+    added detection module for kepler dataset
+
+commit 265950714d52a50107f658eca83e6e41f8a1d03d
+Author: Tiziano Zingales <tiziano.zingales@gmail.com>
+Date:   Wed Oct 16 23:12:09 2024 +0200
+
+    added a description for the parameters submodule
+
+commit e471e582d98e61b0206441e2dc478589662def76
+Author: Tiziano Zingales <tiziano.zingales@gmail.com>
+Date:   Thu Oct 10 18:16:44 2024 +0200
+
+    clean repository
+
+commit 590822903d87871c94a52d82e07ec1b20b7bb27a
+Merge: 01bc48c 53d218b
+Author: Tiziano Zingales <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 16:53:52 2024 +0200
+
+    Merge pull request #1 from tiziano1590/new_proj
+
+    first commit for new_proj
+
+commit 53d218bc71496703988f7aeaa687a9795eedd71d
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 14:40:16 2024 +0000
+
+    first commit for new_proj
+
+commit 01bc48c0df09c856e1cb129c56bbc10cf628b0a0
+Merge: 44f765d 73b6d4c
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 14:28:03 2024 +0000
+
+    Merge branch 'kepler'
+
+commit 73b6d4c8bd38ac73e51c822f9de464b49f431675
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 14:27:54 2024 +0000
+
+    resolved conflict on kepler
+
+commit 44f765d0ba76273c6058aa5f8b4976ccd6edeb94
+Merge: 688abd8 97f7d28
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 14:26:47 2024 +0000
+
+    resolved conflict.txt
+
+commit 97f7d281a53f2e541e46efe33e26690862629774
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 14:17:37 2024 +0000
+
+    generated conflict file in kepler
+
+commit 688abd8aad1f71712827d748c12a9d8855a38d05
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 14:17:03 2024 +0000
+
+    generated main confict file
+
+commit d021d5156eea21e042972f51be2319eb16b72b5b
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 14:09:43 2024 +0000
+
+    added a1 file
+
+commit ac67528dbf2d609ebadafdad542d6e2044ede231
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 13:50:44 2024 +0000
+
+    a modifie file in kepler
+
+commit 7edf12d419bba23fb5688d8cedc96b6320496694
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 13:42:29 2024 +0000
+
+    added anotherfile.txt
+
+commit 9591048558481cf56f6087227866682aa0b40a65
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 13:38:47 2024 +0000
+
+    added a newkepler file
+
+commit f779c32fbab38ee1e5ac958d50cf9fb394b6d651
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 13:34:00 2024 +0000
+
+    added kepler.txt file
+
+commit 427f0857c562927cc15459c007667460e3d2b738
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 12:36:08 2024 +0000
+
+    modified test_add.txt
+
+commit f23e3823514347e62bbee238063196f204e7dc8b
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 10:50:56 2024 +0000
+
+    right message
+
+commit fd092e52fbfd486e53770cab611988701b83ccf0
+Author: tiziano1590 <tiziano.zingales@gmail.com>
+Date:   Mon Oct 7 10:25:02 2024 +0000
+
+    added test_add.txt and modified README
+
+commit 08fed6966df7669c340c8c391596b4831da28f1c
+Author: Tiziano Zingales <tiziano.zingales@gmail.com>
+Date:   Wed Oct 2 16:58:47 2024 +0200
+
+    initial structure of the python package
+
+commit 31452fd4f63608f629acdf1fe9247645c4591640
+Author: Tiziano Zingales <tiziano.zingales@gmail.com>
+Date:   Tue Oct 1 11:13:35 2024 +0200
+
+    Initial commit
+(END)
