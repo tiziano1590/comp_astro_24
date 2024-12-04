@@ -1,0 +1,13 @@
+Planet temperature: 1415 K
+Planet radius: 1.39 Rj
+Planet mass: 0.58 Mj
+
+Stellar temperature: 6230 K
+Stellar radius: 1.28 Rs
+
+H2 content: 0.85214514
+He content: 0.14656896
+H20 content: 2.20710494e-07
+CO2 content: 0.00035058
+CH4 content: 0.0008807
+CO content: 5.43944746e-05
