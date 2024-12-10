@@ -5,9 +5,9 @@ Planet mass: 0.58 Mj
 Stellar temperature: 6230 K
 Stellar radius: 1.28 Rs
 
-H2 content: 0.85214514
-He content: 0.14656896
-H20 content: 2.20710494e-07
-CO2 content: 0.00035058
-CH4 content: 0.0008807
-CO content: 5.43944746e-05
+H2 content =  0.8484504731138907
+He content =  0.14593348137558917
+H2O content =  0.00019000332625478098
+CO2 content =  5.404316635134166e-07
+CH4 content =  6.888447053028813e-06
+CO content =  0.00019657185943575866
