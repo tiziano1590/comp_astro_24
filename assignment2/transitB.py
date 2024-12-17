@@ -20,7 +20,7 @@ params.u = [mean_c1,mean_c2]      #limb darkening coefficients [u1, u2, u3, u4]
 t = np.linspace(-0.3, 0.3, 1000)  #times at which to calculate light curve
 m = batman.TransitModel(params, t)    #initializes model
 
-l = ['Planet', 'Planet (1/2 mass)']
+l = ['Planet', 'Planet (1/2 radius)']
 
 r = [0.11, 0.055]
 for i in range(0, len(r)):
