@@ -1,0 +1,64 @@
+For each kernel, different values of the regularization factor C have been tested
+Here are reported the results obtained with the best parameter.
+
+###################################################
+
+Results for linear kernel - best parameter C = 0.1
+
+Train Set Error 0.0
+Dev Set Error 0.0035087719298245723
+------------
+Precision - Train Set 1.0
+Precision - Dev Set 0.7142857142857143
+------------
+Recall - Train Set 1.0
+Recall - Dev Set 1.0
+------------
+Confusion Matrix - Train Set
+[[5050    0]
+ [   0   37]]
+Confusion Matrix - Dev Set
+[[563   2]
+ [  0   5]]
+------------
+
+########################################################################################
+
+Results for Polynomial Kernel - degree 4, bets parameter C = 1.0 
+ 
+Train Set Error 0.00019657951641438576
+Dev Set Error 0.00877192982456143
+------------
+Precision - Train Set 1.0
+Precision - Dev Set 0.0
+------------
+Recall - Train Set 0.972972972972973
+Recall - Dev Set 0.0
+------------
+Confusion Matrix - Train Set
+[[5050    0]
+ [   1   36]]
+Confusion Matrix - Dev Set
+[[565   0]
+ [  5   0]]
+------------
+
+#######################################################################################
+
+Results for Gaussian Kernel - best parameter C = 1.0
+
+Train Set Error 0.00019657951641438576
+Dev Set Error 0.00877192982456143
+------------
+Precision - Train Set 1.0
+Precision - Dev Set 0.0
+------------
+Recall - Train Set 0.972972972972973
+Recall - Dev Set 0.0
+------------
+Confusion Matrix - Train Set
+[[5050    0]
+ [   1   36]]
+Confusion Matrix - Dev Set
+[[565   0]
+ [  5   0]]

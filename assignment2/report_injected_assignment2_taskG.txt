@@ -1,0 +1,80 @@
+# Network with 1 hidden layer and 1 neuron per layer
+confusion_matrix_train
+[[1585  641]
+ [1877  984]]
+confusion_matrix_dev
+[[149 105]
+ [174 142]]
+
+# Network with 1 hidden layers and 16 neurons per layer
+confusion_matrix_train
+[[1474  752]
+ [1658 1203]]
+confusion_matrix_dev
+[[172  82]
+ [203 113]]
+
+# Network with 1 hidden layers and 32 neurons per layer
+confusion_matrix_train
+[[1890  336]
+ [2250  611]]
+confusion_matrix_dev
+[[228  26]
+ [278  38]]
+
+# Network with 1 hidden layers and 64 neurons per layer
+confusion_matrix_train
+[[1034 1192]
+ [1121 1740]]
+confusion_matrix_dev
+[[ 53 201]
+ [ 54 262]]
+
+# Network  with 2 hidden layers and 16 neurons per layer
+confusion_matrix_train
+[[1939  287]
+ [2281  580]]
+confusion_matrix_dev
+[[236  18]
+ [294  22]]
+
+# Network with 2 hidden layers and 32 neurons per layer
+confusion_matrix_train
+[[ 702 1524]
+ [ 627 2234]]
+confusion_matrix_dev
+[[ 13 241]
+ [ 13 303]]
+
+# Network with 2 hidden layers and 64 neurons per layer
+confusion_matrix_train
+[[1906  320]
+ [2203  658]]
+confusion_matrix_dev
+[[254   0]
+ [316   0]]
+
+# Network with 3 hidden layers and 16 neurons per layer
+
+confusion_matrix_train
+[[2098  128]
+ [2566  295]]
+confusion_matrix_dev
+[[252   2]
+ [308   8]]
+
+# Network with 3 hidden layers and 32 neurons per layer
+confusion_matrix_train
+[[1627  599]
+ [1902  959]]
+confusion_matrix_dev
+[[216  38]
+ [264  52]]
+
+# Network with 3 hidden layers and 64 neurons per layer
+confusion_matrix_train
+[[1903  323]
+ [2303  558]]
+confusion_matrix_dev
+[[180  74]
+ [212 104]]
